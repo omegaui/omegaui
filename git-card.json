@@ -16,18 +16,23 @@
     "show-some-lines": "true",
     "some-lines": [
       "I'm in 💖 with programming",
-      "And thats why I don't have any 👧 🤧",
-      "Well, putting it aside 😑",
-      "Together We can make #gitcards better."
+      "And thats why I don't have any 👧 ...",
+      "Well, putting it aside 🤧",
+      "Together, We can make #gitcards better."
     ],
 
-    "languages-and-tools-title": "I can Speak",
+    "languages-and-tools-title": "My Team 💪",
     "languages-and-tools": [
       "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v2.png",
       "https://img.icons8.com/fluency/48/000000/python.png",
-      "https://img.icons8.com/fluency/48/000000/flutter.png",
+      "https://img.icons8.com/color/48/000000/dart.png",
       "https://img.icons8.com/color/48/000000/kotlin.png",
-      "https://img.icons8.com/color/48/000000/groot.png"
+      "https://img.icons8.com/color/48/000000/javascript--v1.png",
+      "https://img.icons8.com/fluency/48/000000/windows-10.png",
+      "https://img.icons8.com/color/48/000000/linux--v1.png",
+      "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png",
+      "https://img.icons8.com/color/48/000000/intellij-idea.png",
+      "https://raw.githubusercontent.com/omegaui/omegaide/main/res/omega_ide_icon128.png"
     ],
     "connect-title": "Connect With Me",
     "connect-links": [
@@ -46,16 +51,25 @@
         {
           "title": "omegaide",
           "icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/omega_ide_icon128.png",
-          "link": "https://github.com",
+          "link": "https://github.com/omegaui/omegaide",
           "stars": "33",
           "description": "The Blazing Fast Java IDE and an Instant IDE for any programming lanugage.",
           "primary-programming-language": "Java",
           "primary-programming-language-icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-java-48.png"
         },
         {
+          "title": "gedit_flutter_hot_reload",
+          "icon": "https://img.icons8.com/color/48/000000/flutter.png",
+          "link": "https://github.com/omegaui/gedit_flutter_hot_reload",
+          "stars": "3",
+          "description": "Flutter Automatic Hot Reload Plugin for Gnome's Gedit.",
+          "primary-programming-language": "Python",
+          "primary-programming-language-icon": "https://img.icons8.com/fluency/48/000000/python.png"
+        },
+        {
           "title": "dynamic-database",
-          "icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-program-50.png",
-          "link": "https://github.com",
+          "icon": "https://img.icons8.com/fluency/48/000000/database.png",
+          "link": "https://github.com/omegaui/dynamic-database",
           "stars": "2",
           "description": "Fully Code Integrated Dynamic DBMS for the JVM.",
           "primary-programming-language": "Java",
@@ -63,19 +77,10 @@
         },
         {
           "title": "keystrokelistener",
-          "icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-program-50.png",
-          "link": "https://github.com",
+          "icon": "https://img.icons8.com/color/48/000000/key.png",
+          "link": "https://github.com/omegaui/keystrokelistener",
           "stars": "1",
           "description": "The Advanced Swing UI KeyListener.",
-          "primary-programming-language": "Java",
-          "primary-programming-language-icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-java-48.png"
-        },
-        {
-          "title": "omegaide",
-          "icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/omega_ide_icon128.png",
-          "link": "https://github.com",
-          "stars": "29",
-          "description": "The Blazing Fast Java IDE and an Instant IDE for any programming lanugage.",
           "primary-programming-language": "Java",
           "primary-programming-language-icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-java-48.png"
         }
