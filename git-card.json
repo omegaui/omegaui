@@ -7,6 +7,13 @@
     "show-country-icon": "true",
     "country-icon": "https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-india-flags-vitaliy-gorbachev-flat-vitaly-gorbachev.png",
 
+    "show-music-playlist": "true",
+    "music-playlist-data": {
+        "title": "Songs I dive in with Coding",
+        "app-icon": "https://img.icons8.com/color-glass/96/000000/spotify.png",
+        "playlist-link": "https://open.spotify.com/playlist/3VcSKXVZNhKrOYPBi0lKGU?si=f224f96642084f30"
+    },
+    
     "end-punch-line": "Collaboration Never Ends!",
 
     "show-lottie-animation": "true",
