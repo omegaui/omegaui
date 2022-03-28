@@ -52,7 +52,7 @@
           "title": "omegaide",
           "icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/omega_ide_icon128.png",
           "link": "https://github.com/omegaui/omegaide",
-          "stars": "33",
+          "stars": "auto",
           "description": "The Blazing Fast Java IDE and an Instant IDE for any programming lanugage.",
           "primary-programming-language": "Java",
           "primary-programming-language-icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-java-48.png"
@@ -61,7 +61,7 @@
           "title": "gedit_flutter_hot_reload",
           "icon": "https://img.icons8.com/color/48/000000/flutter.png",
           "link": "https://github.com/omegaui/gedit_flutter_hot_reload",
-          "stars": "3",
+          "stars": "auto",
           "description": "Flutter Automatic Hot Reload Plugin for Gnome's Gedit.",
           "primary-programming-language": "Python",
           "primary-programming-language-icon": "https://img.icons8.com/fluency/48/000000/python.png"
@@ -70,7 +70,7 @@
           "title": "dynamic-database",
           "icon": "https://img.icons8.com/fluency/48/000000/database.png",
           "link": "https://github.com/omegaui/dynamic-database",
-          "stars": "2",
+          "stars": "auto",
           "description": "Fully Code Integrated Dynamic DBMS for the JVM.",
           "primary-programming-language": "Java",
           "primary-programming-language-icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-java-48.png"
@@ -79,7 +79,7 @@
           "title": "keystrokelistener",
           "icon": "https://img.icons8.com/color/48/000000/key.png",
           "link": "https://github.com/omegaui/keystrokelistener",
-          "stars": "1",
+          "stars": "auto",
           "description": "The Advanced Swing UI KeyListener.",
           "primary-programming-language": "Java",
           "primary-programming-language-icon": "https://raw.githubusercontent.com/omegaui/omegaide/main/res/fluent-icons/icons8-java-48.png"
