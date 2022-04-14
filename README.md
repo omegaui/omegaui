@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omegaui" alt="omegaui" /></a> </p>
 
-- 🔭 I’m currently working on [Omega IDE](https://omegaui.github.io/omegaide)
+- 🔭 I’m currently working on [Omega IDE](https://github.com/omegaui/omegaide)
 
 - 🌱 I’m currently learning **Flutter & Web Technologies**
 
