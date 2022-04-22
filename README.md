@@ -5,11 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omegaui" alt="omegaui" /></a> </p>
 
-- 🔭 I’m currently working on [Omega IDE](https://github.com/omegaui/omegaide)
+- 🔭 I’m currently working on [**Omega IDE**](https://github.com/omegaui/omegaide)
 
 - 🌱 I’m currently learning **Flutter & Web Technologies**
 
-- 👨‍💻 All of my projects are available at [https://github.com/omegaui](https://github.com/omegaui)
+- 👨‍💻 All of my projects are available at [**https://github.com/omegaui**](https://github.com/omegaui)
 
 - 📫 How to reach me **omegaui22@gmail.com**
 
