@@ -33,9 +33,11 @@ And here's my Spotify playlist
 #### ![](https://img.icons8.com/external-flaticons-flat-flat-icons/32/undefined/external-copyright-modelling-agency-flaticons-flat-flat-icons.png) A beautiful material UI library for Java Swing Applications
 #### ![](https://img.icons8.com/external-flaticons-flat-flat-icons/32/undefined/external-copyright-modelling-agency-flaticons-flat-flat-icons.png) A custom dynamic keystroke listener implementation in Java
 #### ![](https://img.icons8.com/external-flaticons-flat-flat-icons/32/undefined/external-copyright-modelling-agency-flaticons-flat-flat-icons.png) An attractive and interactive variant of GitHub's Profile Section written in Flutter
+#### ![](https://img.icons8.com/external-flaticons-flat-flat-icons/32/undefined/external-copyright-modelling-agency-flaticons-flat-flat-icons.png) A Multi-Track Music Player with Hotshot! Instant Autoplay on Startup written in Flutter
 #### ![](https://img.icons8.com/external-flaticons-flat-flat-icons/32/undefined/external-copyright-modelling-agency-flaticons-flat-flat-icons.png) A bunch of utilities available in form of plugins to omegaide
 #### ![](https://img.icons8.com/external-flaticons-flat-flat-icons/32/undefined/external-copyright-modelling-agency-flaticons-flat-flat-icons.png) And some practice projects while learning Flutter like pokedex, gitshot and planning the next one.
 
+*You can find the above projects in my profile's repositories tab.*
 
 ## ![](https://img.icons8.com/fluency/64/undefined/source-code.png) Languages
 
