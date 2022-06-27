@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **omegaui22@gmail.com** or prefer using instagram
 
-### Not only a power packed Programmer but also a Small Song Twister
+### Not only a power packed Programmer but also a Small Song Twister and Video Creator
 
 Check out my posts at Instagram (ID mentioned below),
 And here's my Spotify playlist
