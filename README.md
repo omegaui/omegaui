@@ -21,7 +21,7 @@ And here's my Spotify playlist
 ## ![](https://img.icons8.com/fluency/32/undefined/share-2.png) Connect With Me
 
 <p align="left">
-<a href="https://instagram.com/__call_me_arham__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="__call_me_arham__" height="30" width="40" /></a>
+<a href="https://instagram.com/the_codes_guy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="__call_me_arham__" height="30" width="40" /></a>
 <a href="https://www.youtube.com/channel/UCpuQLV8MfuHaWHYSq-PRFXg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="omega ui" height="30" width="40" /></a>
 </p>
 
