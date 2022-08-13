@@ -6,13 +6,12 @@ import SkylineButton from './components/skyline_button';
 
 export default function Home() {
   return (
-    // https://skyline.github.com/omegaui/2022
-    // 
     <div className='bg-zinc-900'>
       <div className='bg-zinc-900' align='center'>
         <img className='opacity-80' src='https://img.icons8.com/external-bearicons-gradient-bearicons/256/000000/external-Hi-miscellany-texts-and-badges-bearicons-gradient-bearicons.png'/>
         <h1 className='text-3xl font-sans text-gray-300'>I am Arham</h1>
         <h1 className='text-2xl font-sans text-gray-400'>A <strong>passionate</strong>, <strong>powerpacked</strong>, <strong>badass</strong>, self-made programmer and student from India</h1>
+        <h1 className='text-xl font-sans text-gray-700 animate-pulse'>(This page is under Development)</h1>
 
         <div className='flex mt-20 ml-10 mr-10 items-center justify-center'>
           <PageButton description="From Developing an entire IDE to writing command line tools, here's an entire play store waiting to be explored!" tooltip={ <p className='text-blue-500 font-sans font-bold text-sm'>My Awesome Projects 😼</p> } placement='left' title='Projects' iconSrc='https://img.icons8.com/color/96/000000/class-dojo.png' handleClick={() => {}}/>  
