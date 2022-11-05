@@ -11,6 +11,8 @@
         </h4>
         <a href='https://instagram.com/call._.me._.arham__'>
             <img src='https://img.icons8.com/fluency/48/null/instagram-new.png'/>
+        </a>
+        <a href='https://www.youtube.com/channel/UCpuQLV8MfuHaWHYSq-PRFXg'>
             <img src='https://img.icons8.com/fluency/48/null/youtube-play.png'/>
         </a>
     </div>
