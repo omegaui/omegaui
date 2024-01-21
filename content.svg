@@ -1,0 +1,55 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap');
+
+                body {
+                    font-family: 'Sen', sans-serif;
+                }
+
+                h1 {
+                    font-size: 36px;
+                    font-weight: normal;
+                }
+
+                h2 {
+                    font-size: 22px;
+                    font-weight: normal;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    font-weight: normal;
+                }
+
+                h4 {
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+
+                a {
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            </style>
+            <div class="container" align="center">
+                <h1>
+                    Hi! I'm Arham<br>
+                </h1>
+                <br>
+                <h2>
+                    Designer. Developer. Creator.<br>
+                </h2>
+                <br>
+                <h3>
+                    I thrive in crafting cutting-edge software and designs.<br>
+                </h3>
+                <br>
+                <h4>
+                    Take a look at <a href="https://omegaui-io.web.app/">my portfolio</a> for knowing more about me.<br>
+                </h4>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
