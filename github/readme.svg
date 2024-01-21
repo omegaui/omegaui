@@ -33,11 +33,15 @@
 			</style>
 			
 			<!-- Content -->
-			<h1>Hi! I'm Arham</h1>
+			<img src="https://raw.githubusercontent.com/omegaui/omegaui/main/assets/illustrations/hey.png" width="302px" />
+			<div class='spacer'></div>
+			<h1>I'm Arham</h1>
 			<div class='spacer'></div>
 			<h2>Designer. Developer. Creator.</h2>
 			<div class='spacer-small'></div>
 			<h3>I thrive in crafting cutting-edge software and designs.</h3>
+			<div class='spacer-small'></div>
+			<h4>To know more about me, please visit <a href="https://omegaui-io.web.app/">my portfolio website</a>.</h4>
 		</div>
 	</foreignObject>
 </svg>
