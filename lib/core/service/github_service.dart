@@ -7,9 +7,9 @@ class GithubService {
   final String readOnlyToken =
       "omegaui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";
   VoidCallback? onLoaded;
-  int _projects = 70;
-  int _forks = 70;
-  int _stars = 70;
+  int _projects = 89;
+  int _forks = 430;
+  int _stars = 31;
 
   int get projects => _projects;
   int get forks => _forks;
