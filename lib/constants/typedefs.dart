@@ -1,0 +1,1 @@
+typedef UIRebuildCallback = void Function();
