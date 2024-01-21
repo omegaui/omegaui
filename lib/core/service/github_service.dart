@@ -4,7 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
 class GithubService {
-  final readOnlyToken = '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';
+  final String readOnlyToken =
+      "omegaui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";
   VoidCallback? onLoaded;
   int _projects = 70;
   int _forks = 70;
@@ -33,12 +34,14 @@ class GithubService {
     final response = await http.get(
       Uri.parse('https://api.github.com/users/omegaui'),
       headers: {
-        "Authorization": "Bearer $readOnlyToken",
+        "Authorization": "Bearer ${readOnlyToken.substring(7)}",
       },
     );
     if (response.statusCode == 200) {
       final body = jsonDecode(response.body);
       _projects = body['public_repos'] + body['total_private_repos'];
+    } else {
+      debugPrint("GitHub Service Request Failed: ${response.statusCode}");
     }
   }
 
@@ -47,7 +50,7 @@ class GithubService {
     final response = await http.get(
       Uri.parse('https://api.github.com/users/omegaui/repos?per_page=100'),
       headers: {
-        "Authorization": "Bearer $readOnlyToken",
+        "Authorization": "Bearer ${readOnlyToken.substring(7)}",
       },
     );
     if (response.statusCode == 200) {
@@ -60,6 +63,8 @@ class GithubService {
         _forks += forks;
         _stars += stars;
       }
+    } else {
+      debugPrint("GitHub Service Request Failed: ${response.statusCode}");
     }
   }
 }
