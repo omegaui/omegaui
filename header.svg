@@ -25,6 +25,28 @@
 					top: 0;
 					bottom: 0;
 					overflow: hidden;
+					animation: headsup 1s infinite ease-in-out alternate-reverse;
+				}
+
+				.face {
+					animation: smile 1s infinite ease-in-out alternate-reverse;
+				}
+
+				@keyframes headsup {
+					100% {
+						transform: translateY(12px);
+						transform: scale(1.05);
+					}
+				}
+
+				@keyframes smile {
+					100% {
+						transform: translateY(-4px);
+					}
+				}
+
+				.moon:hover {
+					background-color: #ff0000;
 				}
 
 				.crater {
@@ -112,15 +134,16 @@
 					left: 79px;
 					border-top: none;
 					border-radius: 0 0 40px 40px;
-					animation: smile 1s infinite ease-in-out alternate-reverse;
+					animation: expression 1s infinite ease-in-out alternate-reverse;
 				}
 
-				@keyframes smile {
+				@keyframes expression {
 					50% {
-						transform: rotate(-5deg);
+						transform: rotate(-3deg);
 					}
+
 					100% {
-						transform: rotate(5deg);
+						transform: rotate(3deg);
 					}
 				}
 
@@ -205,8 +228,42 @@
 					top: 17px;
 					left: 5px;
 				}
+
+				.animated-text {
+					opacity: 0%;
+					color: #161616;
+					animation: animateText 5s infinite ease-in-out alternate-reverse;
+				}
+
+				@keyframes animateText {
+					25% {
+						opacity: 0%;
+					}
+
+					50% {
+						opacity: 25%;
+						font-weight: bold;
+					}
+
+					100% {
+						opacity: 100%;
+					}
+				}
+
+				.title {
+					font-size: 22px;
+				}
 			</style>
 			<div class="container">
+				<h4 align="center" class="title">
+					<strong>Hi! I'm Arham</strong>
+				</h4>
+				<div class="animated-text" align="center">
+					<p>
+						<emp>Explore My Portfolio</emp>
+					</p>
+					<img width="24" height="24" src="https://img.icons8.com/ios/50/expand-arrow--v1.png" alt="expand-arrow--v1"/>
+				</div>
 				<div class="moon">
 					<div class="crater crater-1"></div>
 					<div class="crater crater-2"></div>
@@ -214,11 +271,13 @@
 					<div class="crater crater-4"></div>
 					<div class="crater crater-5"></div>
 					<div class="shadow"></div>
-					<div class="eye eye-l"></div>
-					<div class="eye eye-r"></div>
-					<div class="mouth"></div>
-					<div class="blush blush-1"></div>
-					<div class="blush blush-2"></div>
+					<div class="face">
+						<div class="eye eye-l"></div>
+						<div class="eye eye-r"></div>
+						<div class="mouth"></div>
+						<div class="blush blush-1"></div>
+						<div class="blush blush-2"></div>
+					</div>
 				</div>
 				<div class="orbit">
 					<div class="rocket">
