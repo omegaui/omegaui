@@ -231,7 +231,9 @@
 
 				.animated-text {
 					opacity: 0%;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 					color: #161616;
+					font-weight: bold;
 					animation: animateText 5s infinite ease-in-out alternate-reverse;
 				}
 
@@ -242,7 +244,6 @@
 
 					50% {
 						opacity: 25%;
-						font-weight: bold;
 					}
 
 					100% {
@@ -252,6 +253,7 @@
 
 				.title {
 					font-size: 22px;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 				}
 			</style>
 			<div class="container">
@@ -262,7 +264,6 @@
 					<p>
 						<emp>Explore My Portfolio</emp>
 					</p>
-					<img width="24" height="24" src="https://img.icons8.com/ios/50/expand-arrow--v1.png" alt="expand-arrow--v1"/>
 				</div>
 				<div class="moon">
 					<div class="crater crater-1"></div>
