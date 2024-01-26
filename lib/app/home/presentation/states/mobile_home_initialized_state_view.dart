@@ -309,7 +309,7 @@ class _MobileHomeInitializedStateViewState
                                     height: 350,
                                     imageWidth: 468.75 * .9,
                                     playbackVideoUrl:
-                                        "https://firebasestorage.googleapis.com/v0/b/omegaui-io.appspot.com/o/videos%2Fapp-fleet.mp4?alt=media&token=2e4f9423-4d46-4947-84ea-c6e7b62519a2",
+                                        "https://firebasestorage.googleapis.com/v0/b/omegaui-io.appspot.com/o/videos%2Fapp-fleet.mp4?alt=media&token=c910964f-4157-450e-b554-2dcc351aa029",
                                     description: ProjectDescription(
                                       name: "App Fleet",
                                       technologies: [
