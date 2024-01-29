@@ -14,7 +14,8 @@ class AboutMe {
   static const youtubeUrl =
       'https://www.youtube.com/channel/UCpuQLV8MfuHaWHYSq-PRFXg';
   static const devToUrl = 'https://dev.to/omegaui';
-  static const githubUrl = 'http://github.com/omegaui';
+  static const githubUrl = 'https://github.com/omegaui';
+  static const githubSponsorUrl = 'https://github.com/sponsors/omegaui';
   static const instagramUrl = 'https://www.instagram.com/call._.me._.arham__/';
   static const whatsappUrl = 'https://wa.link/cz2fh3';
   static const gmailUrl =

@@ -10,6 +10,8 @@ class AppIcons {
   static const atom = AssetImage('assets/icons/atom.png');
   static const github =
       NetworkImage('https://img.icons8.com/fluency/48/github.png');
+  static const sponsor =
+      NetworkImage('https://img.icons8.com/color/48/melting-hert.png');
   static const reddit = NetworkImage(
       'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-reddit-gives-you-the-best-of-the-internet-in-one-place-logo-shadow-tal-revivo.png');
   static const instagram =

@@ -123,10 +123,12 @@ class _TopPanelState extends State<TopPanel> {
                           .toList(),
                     ),
                     const Gap(10),
-                    const LinkButton(
-                      text: "Github",
-                      url: AboutMe.githubUrl,
-                      image: AppIcons.github,
+                    LinkButton(
+                      text: "Sponsor",
+                      url: AboutMe.githubSponsorUrl,
+                      image: AppIcons.sponsor,
+                      hoverColor: Colors.red.shade100,
+                      hoverTextColor: Colors.black,
                     ),
                   ],
                 ),
