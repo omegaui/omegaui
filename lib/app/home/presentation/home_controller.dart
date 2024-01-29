@@ -9,6 +9,7 @@ class HomeController extends Controller<HomeState, HomeEvent> {
       : super(stateMachine: HomeStateMachine());
 
   void initialize(BuildContext context) async {
+    await precacheImage(AppIcons.sponsor, context);
     await precacheImage(AppArtworks.hero, context);
     await precacheImage(AppArtworks.hey, context);
     await precacheImage(AppIcons.avatar, context);
