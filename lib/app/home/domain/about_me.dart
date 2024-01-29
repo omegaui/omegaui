@@ -16,7 +16,7 @@ class AboutMe {
   static const devToUrl = 'https://dev.to/omegaui';
   static const githubUrl = 'https://github.com/omegaui';
   static const githubSponsorUrl = 'https://github.com/sponsors/omegaui';
-  static const instagramUrl = 'https://www.instagram.com/call._.me._.arham__/';
+  static const instagramUrl = 'https://www.instagram.com/omega.ui/';
   static const whatsappUrl = 'https://wa.link/cz2fh3';
   static const gmailUrl =
       'https://mail.google.com/mail/u/0/?to=omegaui22@gmail.com&fs=1&tf=cm';
