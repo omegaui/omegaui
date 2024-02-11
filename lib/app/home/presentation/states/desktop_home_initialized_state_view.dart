@@ -143,8 +143,7 @@ class _DesktopHomeInitializedStateViewState
                               text: "Instagram",
                               image: AppIcons.instagram,
                               hoverColor: Colors.pink,
-                              url:
-                                  'https://www.instagram.com/call._.me._.arham__/',
+                              url: AboutMe.instagramUrl,
                             ),
                           ],
                         ),
