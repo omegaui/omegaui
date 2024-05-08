@@ -5,11 +5,11 @@ import 'package:http/http.dart' as http;
 
 class GithubService {
   final String readOnlyToken =
-      "omegaui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";
+      "omegaui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";
   VoidCallback? onLoaded;
-  int _projects = 89;
-  int _forks = 430;
-  int _stars = 31;
+  int _projects = 94;
+  int _forks = 45;
+  int _stars = 593;
 
   int get projects => _projects;
   int get forks => _forks;

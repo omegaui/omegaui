@@ -63,7 +63,7 @@ class AppIcons {
   static const graphQL = NetworkImage(
       'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/32/external-graphql-an-open-source-data-query-and-manipulation-language-for-api-logo-shadow-tal-revivo.png');
   static const geditPlugin = NetworkImage(
-      'https://img.icons8.com/keek/48/experimental-puzzle-keek.png');
+      'https://img.icons8.com/pulsar-gradient/48/puzzle.png');
   static const javaCompiler = NetworkImage(
       'https://img.icons8.com/external-parzival-1997-flat-parzival-1997/48/external-record-technology-in-daily-life-parzival-1997-flat-parzival-1997.png');
 }
