@@ -453,6 +453,12 @@ class _DesktopHomeInitializedStateViewState
                           style:
                               AppTheme.fontSize(21).makeMedium().makeItalic(),
                         ),
+                        Gap(25),
+                        LinkButton(
+                          text: "Grab My Resume",
+                          image: AppIcons.ai,
+                          url: AboutMe.resumeUrl,
+                        ),
                         const Gap(50),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,

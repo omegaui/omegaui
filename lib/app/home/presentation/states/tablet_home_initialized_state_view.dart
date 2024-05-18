@@ -8,6 +8,7 @@ import 'package:omegaui/app/home/domain/projects.dart';
 import 'package:omegaui/app/home/domain/skill_entity.dart';
 import 'package:omegaui/app/home/domain/technologies.dart';
 import 'package:omegaui/app/home/presentation/home_controller.dart';
+import 'package:omegaui/app/home/presentation/panels/side_panel.dart';
 import 'package:omegaui/app/home/presentation/widgets/favourite_music_player.dart';
 import 'package:omegaui/app/home/presentation/widgets/link_button.dart';
 import 'package:omegaui/app/home/presentation/widgets/project_card.dart';
@@ -436,6 +437,12 @@ class _TabletHomeInitializedStateViewState
                           "“way more than my age”",
                           style:
                               AppTheme.fontSize(21).makeMedium().makeItalic(),
+                        ),
+                        Gap(25),
+                        LinkButton(
+                          text: "Grab My Resume",
+                          image: AppIcons.ai,
+                          url: AboutMe.resumeUrl,
                         ),
                         const Gap(50),
                         Row(

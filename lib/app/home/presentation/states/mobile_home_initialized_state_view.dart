@@ -7,6 +7,7 @@ import 'package:omegaui/app/home/domain/projects.dart';
 import 'package:omegaui/app/home/domain/skill_entity.dart';
 import 'package:omegaui/app/home/domain/technologies.dart';
 import 'package:omegaui/app/home/presentation/home_controller.dart';
+import 'package:omegaui/app/home/presentation/panels/side_panel.dart';
 import 'package:omegaui/app/home/presentation/widgets/favourite_music_player.dart';
 import 'package:omegaui/app/home/presentation/widgets/link_button.dart';
 import 'package:omegaui/app/home/presentation/widgets/project_card.dart';
@@ -456,6 +457,12 @@ class _MobileHomeInitializedStateViewState
                           style:
                               AppTheme.fontSize(16).makeMedium().makeItalic(),
                         ),
+                        Gap(25),
+                        LinkButton(
+                          text: "Grab My Resume",
+                          image: AppIcons.ai,
+                          url: AboutMe.resumeUrl,
+                        ),
                         const Gap(25),
                         Wrap(
                           spacing: 25,
@@ -762,6 +769,12 @@ class _MobileHomeInitializedStateViewState
                   const Gap(10),
                 ],
               ),
+            ),
+          ),
+          Align(
+            alignment: Alignment.topLeft,
+            child: SidePanel(
+              scrollController: scrollController,
             ),
           ),
         ],

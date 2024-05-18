@@ -20,4 +20,6 @@ class AboutMe {
   static const whatsappUrl = 'https://wa.link/cz2fh3';
   static const gmailUrl =
       'https://mail.google.com/mail/u/0/?to=omegaui22@gmail.com&fs=1&tf=cm';
+  static const resumeUrl =
+      'https://docs.google.com/document/d/1Qj7Nk6nnsC00uknNtfs9oXkkPCL7aoodcUY_AgCxhGY/edit?usp=sharing';
 }
