@@ -7,7 +7,7 @@ class AboutMe {
     "Programming is everything that I have learned all my life and I have worked with C, C++ and C# with .NET Integration on Windows as well.",
     "I love exploring beyond programming, I have worked with various linux distributions like Debian, Arch, Fedora, out of which Ubuntu always remained my home distro for a long time because of its stability. I have both Linux and Windows System Administration experience.",
     "I'm a developer who understands design principles and I bring designs to life with perfect per pixel UI cloning. I'm very passionate about designing and I design my own apps 😁.",
-    "The best part, I love to create open source software and I'm always ready to contribute to open source projects, the energy and enthusiasm of the my open source community encourages me to give more to the community. #OpenSourceRULES - I ❤️ this community.",
+    "The best part, I love to create open source software and I'm always ready to contribute to open source projects, the energy and enthusiasm of my open source community encourages me to give more to the community. #OpenSourceRULES - I ❤️ this community.",
   ];
 
   static const redditUrl = 'https://www.reddit.com/user/omega_ui';
