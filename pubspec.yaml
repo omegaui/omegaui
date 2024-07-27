@@ -38,6 +38,14 @@ flutter:
     - assets/illustrations/
     - assets/music/
     - assets/images/
+    - assets/cat/attacking/
+    - assets/cat/idle/
+    - assets/cat/jumping/
+    - assets/cat/licking/
+    - assets/cat/running/
+    - assets/cat/scaring/
+    - assets/cat/sleeping/
+    - assets/cat/sprinting/
   fonts:
     - family: Sen
       fonts:
