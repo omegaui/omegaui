@@ -44,7 +44,7 @@ class _TopPanelState extends State<TopPanel> {
       "Skills": () => _scrollTo(2600),
       "Technologies": () => _scrollTo(3600),
       "Projects": () => _scrollTo(4600),
-      "Experience": () => _scrollTo(6850),
+      "Experience": () => _scrollTo(7100),
     };
     widget.scrollController.addListener(() {
       final scrollingUp =

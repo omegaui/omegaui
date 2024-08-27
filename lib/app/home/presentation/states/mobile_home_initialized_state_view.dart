@@ -215,6 +215,13 @@ class _MobileHomeInitializedStateViewState
                             ),
                           ],
                         ),
+                        const Gap(15),
+                        LinkButton(
+                          text: "LinkedIn",
+                          url: AboutMe.linkedinUrl,
+                          image: AppIcons.linkedin,
+                          hoverColor: Colors.blueAccent,
+                        ),
                       ],
                     ),
                   ),
@@ -738,6 +745,17 @@ class _MobileHomeInitializedStateViewState
                                         text: "Github",
                                         image: AppIcons.github,
                                         url: AboutMe.githubUrl,
+                                      ),
+                                      LinkButton(
+                                        text: "LinkedIn",
+                                        url: AboutMe.linkedinUrl,
+                                        image: AppIcons.linkedin,
+                                        hoverColor: Colors.blueAccent,
+                                      ),
+                                      LinkButton(
+                                        text: "Kaggle",
+                                        url: AboutMe.kaggleUrl,
+                                        image: AppIcons.kaggle,
                                       ),
                                       LinkButton(
                                         text: "Instagram",

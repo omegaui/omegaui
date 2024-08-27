@@ -58,7 +58,7 @@ class _ProjectMiniCardState extends State<ProjectMiniCard> {
                       borderRadius: BorderRadius.circular(10),
                       child: Image(
                         image: widget.description.icon,
-                        width: 48,
+                        height: 48,
                       ),
                     ),
                     const Gap(10),

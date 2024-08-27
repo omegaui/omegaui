@@ -25,7 +25,7 @@ class _SidePanelState extends State<SidePanel> {
       "Skills": () => _scrollTo(1750),
       "Technologies": () => _scrollTo(4500),
       "Projects": () => _scrollTo(5250),
-      "Experience": () => _scrollTo(10100),
+      "Experience": () => _scrollTo(10520),
     };
     widget.scrollController.addListener(() {
       final scrollingUp =

@@ -120,5 +120,26 @@ class Projects {
               "A library for IDEs and Code Editors to compile java projects the fastest dynamically.",
           url: 'https://github.com/omegaui/fast-java-dynamic-compiler',
         ),
+        ProjectShortDescription(
+          icon: AppIcons.gpm,
+          name: "Generic Package Manager",
+          technologies: {
+            AppIcons.dart: "Dart",
+          },
+          info:
+              "Directly install applications from their GitHub repository with autoupdate support.",
+          url: 'https://github.com/generic-package-manager',
+        ),
+        ProjectShortDescription(
+          icon: AppIcons.androidBuildMaker,
+          name: "Android Build Automation",
+          technologies: {
+            AppIcons.flutter: "Flutter",
+            AppIcons.kiranafast: "Organization Product",
+          },
+          info:
+              "Build Queue, Profiles, Automated App Icon Generation, Flutter and Git Config.",
+          url: 'https://github.com/omegaui/android_build_maker',
+        ),
       ];
 }

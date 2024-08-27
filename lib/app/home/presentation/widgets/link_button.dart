@@ -12,6 +12,7 @@ class LinkButton extends StatefulWidget {
     this.onPressed,
     this.hoverColor,
     this.hoverTextColor,
+    this.imageSize,
   }) : assert(url == null || onPressed == null);
 
   final String text;
@@ -20,6 +21,7 @@ class LinkButton extends StatefulWidget {
   final VoidCallback? onPressed;
   final Color? hoverColor;
   final Color? hoverTextColor;
+  final double? imageSize;
 
   @override
   State<LinkButton> createState() => _LinkButtonState();
@@ -62,7 +64,7 @@ class _LinkButtonState extends State<LinkButton> {
               children: [
                 Image(
                   image: widget.image,
-                  width: 24,
+                  width: widget.imageSize ?? 24,
                 ),
                 const Gap(5),
                 AnimatedSwitcher(

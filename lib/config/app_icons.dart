@@ -12,6 +12,10 @@ class AppIcons {
   static const sponsor = AssetImage('assets/icons/melting-hert.png');
   static const reddit = AssetImage('assets/icons/reddit.png');
   static const instagram = AssetImage('assets/icons/instagram.png');
+  static const kaggle = AssetImage('assets/icons/kaggle.png');
+  static const linkedin = AssetImage('assets/icons/linkedin.png');
+  static const gpm = AssetImage('assets/icons/gpm.png');
+  static const androidBuildMaker = AssetImage('assets/icons/android-build-maker.png');
   static const youtube = AssetImage('assets/icons/youtube.png');
   static const devTo = AssetImage('assets/icons/dev-to.png');
   static const figma = AssetImage('assets/icons/figma.png');
