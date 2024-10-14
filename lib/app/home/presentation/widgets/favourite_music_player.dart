@@ -15,7 +15,7 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
   bool playing = false;
   bool hover = false;
   Duration elapsedDuration = const Duration(minutes: 0, seconds: 0);
-  final maxDuration = const Duration(minutes: 0, seconds: 53);
+  final maxDuration = const Duration(minutes: 2, seconds: 51);
   final samples = <double>[
     -911204,
     627187,
@@ -124,7 +124,6 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
     super.initState();
     player = AudioPlayer();
     player.setAsset('assets/music/favourite.m4a');
-    player.setLoopMode(LoopMode.all);
     player.positionStream.listen((event) {
       if (mounted) {
         setState(() {
@@ -191,7 +190,7 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
               width: 200,
               maxDuration: maxDuration,
               elapsedDuration: elapsedDuration
-                          .compareTo(const Duration(minutes: 0, seconds: 53)) >
+                          .compareTo(const Duration(minutes: 2, seconds: 51)) >
                       0
                   ? maxDuration
                   : elapsedDuration,
