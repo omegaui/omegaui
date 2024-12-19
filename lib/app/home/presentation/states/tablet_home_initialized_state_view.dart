@@ -2,13 +2,15 @@ import 'package:animated_background/animated_background.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
+import 'package:omegaui/main.dart';
+import 'package:timeago/timeago.dart' as timeago;
 import 'package:omegaui/app/home/domain/about_me.dart';
 import 'package:omegaui/app/home/domain/project_description.dart';
 import 'package:omegaui/app/home/domain/projects.dart';
 import 'package:omegaui/app/home/domain/skill_entity.dart';
 import 'package:omegaui/app/home/domain/technologies.dart';
+import 'package:omegaui/app/home/domain/technologies.dart';
 import 'package:omegaui/app/home/presentation/home_controller.dart';
-import 'package:omegaui/app/home/presentation/panels/side_panel.dart';
 import 'package:omegaui/app/home/presentation/widgets/favourite_music_player.dart';
 import 'package:omegaui/app/home/presentation/widgets/link_button.dart';
 import 'package:omegaui/app/home/presentation/widgets/project_card.dart';
@@ -761,6 +763,11 @@ class _TabletHomeInitializedStateViewState
                   Text(
                     "2024 © Omega UI. All rights reserved.",
                     style: AppTheme.fontSize(14).makeMedium(),
+                  ),
+                  const Gap(5),
+                  Text(
+                    "Last updated ${timeago.format(siteLastUpdated)}",
+                    style: AppTheme.fontSize(12).makeMedium(),
                   ),
                   const Gap(10),
                 ],

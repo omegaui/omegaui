@@ -4,6 +4,8 @@ import 'package:omegaui/config/app_theme.dart';
 import 'package:omegaui/core/injector/injector.dart';
 import 'package:omegaui/core/routing/route_service.dart';
 
+final siteLastUpdated = DateTime(2024, 12, 19, 14, 2);
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const App());
