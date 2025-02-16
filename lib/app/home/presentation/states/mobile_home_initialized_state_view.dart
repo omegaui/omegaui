@@ -1,3 +1,4 @@
+import 'package:animated_background/animated_background.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
@@ -122,7 +123,7 @@ class _MobileHomeInitializedStateViewState
                               style: AppTheme.fontSize(14).makeMedium(),
                             ),
                             Text(
-                              "this one's my favourite",
+                              "this one's my favourite theme",
                               style: AppTheme.fontSize(14).makeMedium(),
                             ),
                             const Gap(20),
@@ -630,28 +631,51 @@ class _MobileHomeInitializedStateViewState
                           },
                           child: MouseRegion(
                             cursor: SystemMouseCursors.click,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.grey.withOpacity(0.25),
-                                    blurRadius: 16,
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.grey.withOpacity(0.25),
+                                        blurRadius: 16,
+                                      ),
+                                    ],
                                   ),
-                                ],
-                              ),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(15),
-                                child: const Image(
-                                  image: AppIcons.kiranafast,
-                                  width: 172.5 / 2,
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(15),
+                                    child: const Image(
+                                      image: AppIcons.kiranafast,
+                                      width: 172.5 / 2,
+                                    ),
+                                  ),
                                 ),
-                              ),
+                                Gap(20),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.grey.withOpacity(0.25),
+                                        blurRadius: 16,
+                                      ),
+                                    ],
+                                  ),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(15),
+                                    child: const Image(
+                                      image: AppIcons.billingfast,
+                                      width: 172.5 / 2,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
                         const Gap(20),
                         Text(
-                          "I'm currently the Lead Developer at Kirana Fast",
+                          "I'm currently the Lead Developer at Kirana Fast (now \"Billing Fast\")",
                           textAlign: TextAlign.center,
                           style: AppTheme.fontSize(14).makeBold(),
                         ),
@@ -783,7 +807,7 @@ class _MobileHomeInitializedStateViewState
                   ),
                   const Gap(50),
                   Text(
-                    "2024 © Omega UI. All rights reserved.",
+                    "2024-2025 © omegaui",
                     style: AppTheme.fontSize(14).makeMedium(),
                   ),
                   const Gap(5),
@@ -800,6 +824,27 @@ class _MobileHomeInitializedStateViewState
             alignment: Alignment.topLeft,
             child: SidePanel(
               scrollController: scrollController,
+            ),
+          ),
+          Align(
+            child: AnimatedBackground(
+              vsync: this,
+              behaviour: RandomParticleBehaviour(
+                options: const ParticleOptions(
+                  baseColor: Colors.black,
+                  maxOpacity: 1.0,
+                  minOpacity: 0.4,
+                  spawnMinRadius: 1.0,
+                  spawnMaxRadius: 1.2,
+                  spawnMinSpeed: 2.0,
+                  spawnMaxSpeed: 15.0,
+                  particleCount: 20,
+                ),
+              ),
+              child: SizedBox(
+                width: MediaQuery.sizeOf(context).width,
+                height: MediaQuery.sizeOf(context).height,
+              ),
             ),
           ),
         ],

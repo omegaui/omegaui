@@ -124,8 +124,8 @@ class _TopPanelState extends State<TopPanel> {
                     ),
                     const Gap(10),
                     LinkButton(
-                      text: "Sponsor",
-                      url: AboutMe.githubSponsorUrl,
+                      text: "Connect on GitHub",
+                      url: AboutMe.githubUrl,
                       image: AppIcons.sponsor,
                       hoverColor: Colors.red.shade100,
                       hoverTextColor: Colors.black,

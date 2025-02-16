@@ -6,6 +6,19 @@ class Projects {
 
   static List<ProjectShortDescription> get others => [
         ProjectShortDescription(
+          icon: AppIcons.nakime,
+          name: "Nakime",
+          technologies: {
+            AppIcons.visualStudio: "App's Core is a Windows Service",
+            AppIcons.flutter: "App's UI is written in Flutter",
+            AppIcons.console:
+                "Comes with an extendable CLI named 'session-uptime'",
+          },
+          info:
+              "Track your PC sessions and find out if someone tried to turn on your computer.",
+          url: 'https://github.com/omegaui/nakime',
+        ),
+        ProjectShortDescription(
           icon: AppIcons.chatDesk,
           name: "Chat Desk",
           technologies: {
@@ -57,18 +70,18 @@ class Projects {
           info:
               "An application that turns your Github into your ready-to-use dropbox.",
         ),
-        ProjectShortDescription(
-          icon: AppIcons.curlyCreate,
-          name: "Curly Create",
-          technologies: {
-            AppIcons.flutter: "Flutter",
-            AppIcons.dart: "Dart",
-            AppIcons.firebase: "Firebase",
-          },
-          info:
-              "An art collection management application with master mode authentication.",
-          url: 'https://github.com/omegaui/curly_create',
-        ),
+        // ProjectShortDescription(
+        //   icon: AppIcons.curlyCreate,
+        //   name: "Curly Create",
+        //   technologies: {
+        //     AppIcons.flutter: "Flutter",
+        //     AppIcons.dart: "Dart",
+        //     AppIcons.firebase: "Firebase",
+        //   },
+        //   info:
+        //       "An art collection management application with master mode authentication.",
+        //   url: 'https://github.com/omegaui/curly_create',
+        // ),
         ProjectShortDescription(
           icon: AppIcons.linux,
           name: "Linux Storage Sense",

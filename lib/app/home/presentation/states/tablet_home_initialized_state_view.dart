@@ -9,7 +9,6 @@ import 'package:omegaui/app/home/domain/project_description.dart';
 import 'package:omegaui/app/home/domain/projects.dart';
 import 'package:omegaui/app/home/domain/skill_entity.dart';
 import 'package:omegaui/app/home/domain/technologies.dart';
-import 'package:omegaui/app/home/domain/technologies.dart';
 import 'package:omegaui/app/home/presentation/home_controller.dart';
 import 'package:omegaui/app/home/presentation/widgets/favourite_music_player.dart';
 import 'package:omegaui/app/home/presentation/widgets/link_button.dart';
@@ -127,7 +126,7 @@ class _TabletHomeInitializedStateViewState
                               style: AppTheme.fontSize(14).makeMedium(),
                             ),
                             Text(
-                              "this one's my favourite",
+                              "this one's my favourite theme",
                               style: AppTheme.fontSize(14).makeMedium(),
                             ),
                             const Gap(20),
@@ -609,28 +608,51 @@ class _TabletHomeInitializedStateViewState
                           },
                           child: MouseRegion(
                             cursor: SystemMouseCursors.click,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.grey.withOpacity(0.25),
-                                    blurRadius: 16,
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.grey.withOpacity(0.25),
+                                        blurRadius: 16,
+                                      ),
+                                    ],
                                   ),
-                                ],
-                              ),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(30),
-                                child: const Image(
-                                  image: AppIcons.kiranafast,
-                                  width: 172.5,
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(30),
+                                    child: const Image(
+                                      image: AppIcons.kiranafast,
+                                      width: 172.5,
+                                    ),
+                                  ),
                                 ),
-                              ),
+                                Gap(20),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.grey.withOpacity(0.25),
+                                        blurRadius: 16,
+                                      ),
+                                    ],
+                                  ),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(30),
+                                    child: const Image(
+                                      image: AppIcons.billingfast,
+                                      width: 172.5,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
                         const Gap(20),
                         Text(
-                          "I'm currently the Lead Developer at Kirana Fast",
+                          "I'm currently the Lead Developer at Kirana Fast (now \"Billing Fast\")",
                           style: AppTheme.fontSize(21).makeBold(),
                         ),
                         SizedBox(
@@ -761,7 +783,7 @@ class _TabletHomeInitializedStateViewState
                   ),
                   const Gap(50),
                   Text(
-                    "2024 © Omega UI. All rights reserved.",
+                    "2024-2025 © omegaui",
                     style: AppTheme.fontSize(14).makeMedium(),
                   ),
                   const Gap(5),

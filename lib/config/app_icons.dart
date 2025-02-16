@@ -5,6 +5,7 @@ class AppIcons {
 
   static const avatar = AssetImage('assets/icons/avatar.png');
   static const kiranafast = AssetImage('assets/icons/kiranafast.png');
+  static const billingfast = AssetImage('assets/icons/billingfast.png');
   static const openai = AssetImage('assets/icons/openai.png');
   static const jetbrains = AssetImage('assets/icons/jetbrains.png');
   static const atom = AssetImage('assets/icons/atom.png');
@@ -15,7 +16,8 @@ class AppIcons {
   static const kaggle = AssetImage('assets/icons/kaggle.png');
   static const linkedin = AssetImage('assets/icons/linkedin.png');
   static const gpm = AssetImage('assets/icons/gpm.png');
-  static const androidBuildMaker = AssetImage('assets/icons/android-build-maker.png');
+  static const androidBuildMaker =
+      AssetImage('assets/icons/android-build-maker.png');
   static const youtube = AssetImage('assets/icons/youtube.png');
   static const devTo = AssetImage('assets/icons/dev-to.png');
   static const figma = AssetImage('assets/icons/figma.png');
@@ -46,4 +48,8 @@ class AppIcons {
   static const graphQL = AssetImage('assets/icons/graphql.png');
   static const geditPlugin = AssetImage('assets/icons/gedit-plugin.png');
   static const javaCompiler = AssetImage('assets/icons/java-compiler.png');
+  static const nakime = AssetImage('assets/icons/nakime.png');
+  static const visualStudio = AssetImage('assets/icons/visual-studio.png');
+  static const windows = AssetImage('assets/icons/windows.png');
+  static const console = AssetImage('assets/icons/console.png');
 }

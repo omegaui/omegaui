@@ -11,7 +11,7 @@ class FavouriteMusicPlayer extends StatefulWidget {
 }
 
 class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
-  late AudioPlayer player;
+  AudioPlayer? player;
   bool playing = false;
   bool hover = false;
   Duration elapsedDuration = const Duration(minutes: 0, seconds: 0);
@@ -123,14 +123,20 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
   void initState() {
     super.initState();
     player = AudioPlayer();
-    player.setAsset('assets/music/favourite.m4a');
-    player.positionStream.listen((event) {
+    player!.setAsset('assets/music/favourite.mp3');
+    player!.positionStream.listen((event) {
       if (mounted) {
         setState(() {
           elapsedDuration = event;
         });
       }
     });
+  }
+
+  @override
+  void dispose() {
+    player?.dispose();
+    super.dispose();
   }
 
   @override
@@ -148,9 +154,9 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
             GestureDetector(
               onTap: () {
                 if (playing) {
-                  player.pause();
+                  player!.pause();
                 } else {
-                  player.play();
+                  player!.play();
                 }
                 playing = !playing;
               },

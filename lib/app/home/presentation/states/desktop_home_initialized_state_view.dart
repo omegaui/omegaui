@@ -5,6 +5,7 @@ import 'package:animated_background/animated_background.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
+import 'package:omegaui/app/home/presentation/widgets/hover_text.dart';
 import 'package:omegaui/main.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:omegaui/app/home/domain/about_me.dart';
@@ -224,9 +225,15 @@ class _DesktopHomeInitializedStateViewState
                         width: MediaQuery.sizeOf(context).width,
                         height: 160,
                       ),
-                      Text(
-                        "Hi! I'm Arham",
-                        style: AppTheme.fontSize(56).makeBold(),
+                      HoverText(
+                        visibleChild: Text(
+                          "Hi! I'm Arham",
+                          style: AppTheme.fontSize(56).makeBold(),
+                        ),
+                        hoverChild: Text(
+                          "こんにちは！私はアルハムです",
+                          style: AppTheme.fontSize(56),
+                        ),
                       ),
                       Text(
                         "Designer. Developer. Creator.",
@@ -253,10 +260,17 @@ class _DesktopHomeInitializedStateViewState
                             width: 1000,
                             height: 300,
                             child: Center(
-                              child: Text(
-                                "A passionate and self-made developer, known for unleashing the full potential of technology in its most exceptional form.",
-                                textAlign: TextAlign.center,
-                                style: AppTheme.fontSize(32).makeBold(),
+                              child: HoverText(
+                                visibleChild: Text(
+                                  "A passionate and self-made developer, known for unleashing the full potential of technology in its most exceptional form.",
+                                  textAlign: TextAlign.center,
+                                  style: AppTheme.fontSize(32).makeBold(),
+                                ),
+                                hoverChild: Text(
+                                  "私は素晴らしい",
+                                  textAlign: TextAlign.center,
+                                  style: AppTheme.fontSize(52),
+                                ),
                               ),
                             ),
                           ),
@@ -284,7 +298,7 @@ class _DesktopHomeInitializedStateViewState
                                   style: AppTheme.fontSize(14).makeMedium(),
                                 ),
                                 Text(
-                                  "this one's my favourite",
+                                  "this one's my favourite theme",
                                   style: AppTheme.fontSize(14).makeMedium(),
                                 ),
                                 const Gap(20),
@@ -781,28 +795,53 @@ class _DesktopHomeInitializedStateViewState
                               },
                               child: MouseRegion(
                                 cursor: SystemMouseCursors.click,
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    boxShadow: [
-                                      BoxShadow(
-                                        color: Colors.grey.withOpacity(0.25),
-                                        blurRadius: 16,
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        boxShadow: [
+                                          BoxShadow(
+                                            color:
+                                                Colors.grey.withOpacity(0.25),
+                                            blurRadius: 16,
+                                          ),
+                                        ],
                                       ),
-                                    ],
-                                  ),
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(30),
-                                    child: const Image(
-                                      image: AppIcons.kiranafast,
-                                      width: 172.5,
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(30),
+                                        child: const Image(
+                                          image: AppIcons.kiranafast,
+                                          width: 172.5,
+                                        ),
+                                      ),
                                     ),
-                                  ),
+                                    Gap(20),
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        boxShadow: [
+                                          BoxShadow(
+                                            color:
+                                                Colors.grey.withOpacity(0.25),
+                                            blurRadius: 16,
+                                          ),
+                                        ],
+                                      ),
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(30),
+                                        child: const Image(
+                                          image: AppIcons.billingfast,
+                                          width: 172.5,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                             ),
                             const Gap(20),
                             Text(
-                              "I'm currently the Lead Developer at Kirana Fast",
+                              "I'm currently the Lead Developer at Kirana Fast (now \"Billing Fast\")",
                               style: AppTheme.fontSize(21).makeBold(),
                             ),
                             Text(
@@ -927,7 +966,7 @@ class _DesktopHomeInitializedStateViewState
                       ),
                       const Gap(50),
                       Text(
-                        "2024 © Omega UI. All rights reserved.",
+                        "2024-2025 © omegaui",
                         style: AppTheme.fontSize(14).makeMedium(),
                       ),
                       const Gap(5),

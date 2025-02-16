@@ -114,7 +114,7 @@ class _ProjectCardState extends State<ProjectCard> {
                 child: play
                     ? SizedBox(
                         width: 1280,
-                        height: 720,
+                        height: widget.mobileMode ? 250 : 720,
                         child: Stack(
                           children: [
                             Align(
@@ -131,7 +131,7 @@ class _ProjectCardState extends State<ProjectCard> {
                                 opacity: hover ? 1.0 : 0.0,
                                 child: Container(
                                   width: 1280,
-                                  height: 720,
+                                  height: widget.mobileMode ? 250 : 720,
                                   decoration: BoxDecoration(
                                     color: Colors.white.withOpacity(0.2),
                                   ),

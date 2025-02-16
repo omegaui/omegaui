@@ -16,7 +16,7 @@ class AboutMe {
   static const devToUrl = 'https://dev.to/omegaui';
   static const githubUrl = 'https://github.com/omegaui';
   static const githubSponsorUrl = 'https://github.com/sponsors/omegaui';
-  static const instagramUrl = 'https://www.instagram.com/__._.a_r_h_a_m._.__/';
+  static const instagramUrl = 'https://www.instagram.com/demon_to_the_demons/';
   static const kaggleUrl = 'https://www.kaggle.com/omegaui';
   static const linkedinUrl = 'https://www.linkedin.com/in/arham-faiz-41a1a8222';
   static const whatsappUrl = 'https://wa.link/cz2fh3';
