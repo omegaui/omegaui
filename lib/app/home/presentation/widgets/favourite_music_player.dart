@@ -15,7 +15,7 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
   bool playing = false;
   bool hover = false;
   Duration elapsedDuration = const Duration(minutes: 0, seconds: 0);
-  final maxDuration = const Duration(minutes: 2, seconds: 51);
+  final maxDuration = const Duration(minutes: 2, seconds: 5);
   final samples = <double>[
     -911204,
     627187,
@@ -126,6 +126,13 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
     player!.setAsset('assets/music/favourite.mp3');
     player!.positionStream.listen((event) {
       if (mounted) {
+        if (elapsedDuration.inSeconds >= maxDuration.inSeconds) {
+          if (playing) {
+            playing = false;
+            player?.seek(Duration.zero);
+            player?.pause();
+          }
+        }
         setState(() {
           elapsedDuration = event;
         });
@@ -196,7 +203,7 @@ class _FavouriteMusicPlayerState extends State<FavouriteMusicPlayer> {
               width: 200,
               maxDuration: maxDuration,
               elapsedDuration: elapsedDuration
-                          .compareTo(const Duration(minutes: 2, seconds: 51)) >
+                          .compareTo(const Duration(minutes: 2, seconds: 5)) >
                       0
                   ? maxDuration
                   : elapsedDuration,
