@@ -7,9 +7,9 @@
 				.card {
 					width: 790px;
 					height: 210px;
-					background: linear-gradient(145deg, #0a0e17 0%, #0d1420 40%, #0f1729 100%);
+					background: linear-gradient(145deg, #ffffff 0%, #f6f8fa 40%, #f0f3f6 100%);
 					border-radius: 16px;
-					border: 1px solid rgba(0, 220, 200, 0.15);
+					border: 1px solid rgba(0, 150, 140, 0.2);
 					position: relative;
 					overflow: hidden;
 					font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -24,7 +24,7 @@
 					right: -1px;
 					bottom: -1px;
 					border-radius: 16px;
-					background: linear-gradient(90deg, transparent, rgba(0, 220, 200, 0.15), rgba(0, 180, 171, 0.3), rgba(0, 220, 200, 0.15), transparent);
+					background: linear-gradient(90deg, transparent, rgba(0, 150, 140, 0.15), rgba(0, 150, 140, 0.3), rgba(0, 150, 140, 0.15), transparent);
 					background-size: 200% 100%;
 					animation: borderShimmer 4s linear infinite;
 					z-index: 0;
@@ -48,8 +48,8 @@
 					right: 0;
 					bottom: 0;
 					background-image:
-						linear-gradient(rgba(0, 220, 200, 0.03) 1px, transparent 1px),
-						linear-gradient(90deg, rgba(0, 220, 200, 0.03) 1px, transparent 1px);
+						linear-gradient(rgba(0, 150, 140, 0.04) 1px, transparent 1px),
+						linear-gradient(90deg, rgba(0, 150, 140, 0.04) 1px, transparent 1px);
 					background-size: 40px 40px;
 					z-index: 1;
 				}
@@ -61,7 +61,7 @@
 					left: 0;
 					right: 0;
 					height: 2px;
-					background: linear-gradient(90deg, transparent, rgba(0, 220, 200, 0.2), transparent);
+					background: linear-gradient(90deg, transparent, rgba(0, 150, 140, 0.2), transparent);
 					animation: scanDown 4s ease-in-out infinite;
 					z-index: 2;
 				}
@@ -94,8 +94,8 @@
 					display: inline-flex;
 					align-items: center;
 					gap: 6px;
-					background: rgba(0, 220, 200, 0.08);
-					border: 1px solid rgba(0, 220, 200, 0.2);
+					background: rgba(0, 150, 140, 0.06);
+					border: 1px solid rgba(0, 150, 140, 0.2);
 					border-radius: 20px;
 					padding: 4px 12px;
 					margin-bottom: 14px;
@@ -105,18 +105,18 @@
 				.badge-dot {
 					width: 6px;
 					height: 6px;
-					background: #00DCC8;
+					background: #0e8a7e;
 					border-radius: 50%;
 					animation: badgePulse 2s ease-in-out infinite;
 				}
 
 				@keyframes badgePulse {
-					0%, 100% { opacity: 0.5; box-shadow: 0 0 4px rgba(0, 220, 200, 0.3); }
-					50% { opacity: 1; box-shadow: 0 0 8px rgba(0, 220, 200, 0.6); }
+					0%, 100% { opacity: 0.5; box-shadow: 0 0 4px rgba(14, 138, 126, 0.2); }
+					50% { opacity: 1; box-shadow: 0 0 8px rgba(14, 138, 126, 0.5); }
 				}
 
 				.badge-text {
-					color: #00DCC8;
+					color: #0e8a7e;
 					font-size: 10px;
 					font-weight: 500;
 					letter-spacing: 1.5px;
@@ -131,24 +131,24 @@
 				}
 
 				.title {
-					color: #e6edf3;
+					color: #1f2328;
 					font-size: 28px;
 					font-weight: 700;
 					letter-spacing: -0.5px;
 				}
 
 				.title-accent {
-					color: #00DCC8;
+					color: #0e8a7e;
 				}
 
 				.version {
-					color: #484f58;
+					color: #818b98;
 					font-size: 12px;
 					font-family: "SF Mono", "Fira Code", Consolas, monospace;
 				}
 
 				.subtitle {
-					color: #7d8590;
+					color: #656d76;
 					font-size: 13px;
 					line-height: 1.5;
 					max-width: 380px;
@@ -170,17 +170,17 @@
 				.lang-dot {
 					width: 10px;
 					height: 10px;
-					background: #00B4AB;
+					background: #0e8a7e;
 					border-radius: 50%;
 				}
 
 				.meta-text {
-					color: #7d8590;
+					color: #656d76;
 					font-size: 11px;
 				}
 
 				.star-icon {
-					color: #7d8590;
+					color: #656d76;
 					font-size: 12px;
 				}
 
@@ -195,8 +195,8 @@
 				.terminal {
 					width: 310px;
 					height: 145px;
-					background: rgba(0, 0, 0, 0.4);
-					border: 1px solid rgba(0, 220, 200, 0.12);
+					background: #1b1f23;
+					border: 1px solid #30363d;
 					border-radius: 10px;
 					overflow: hidden;
 				}
@@ -206,8 +206,8 @@
 					align-items: center;
 					gap: 6px;
 					padding: 8px 12px;
-					background: rgba(0, 220, 200, 0.04);
-					border-bottom: 1px solid rgba(0, 220, 200, 0.08);
+					background: rgba(255, 255, 255, 0.03);
+					border-bottom: 1px solid #30363d;
 				}
 
 				.term-dot {
@@ -216,12 +216,12 @@
 					border-radius: 50%;
 				}
 
-				.term-dot-r { background: #ff5f57; opacity: 0.6; }
-				.term-dot-y { background: #febc2e; opacity: 0.6; }
-				.term-dot-g { background: #28c840; opacity: 0.6; }
+				.term-dot-r { background: #ff5f57; opacity: 0.8; }
+				.term-dot-y { background: #febc2e; opacity: 0.8; }
+				.term-dot-g { background: #28c840; opacity: 0.8; }
 
 				.term-title {
-					color: #484f58;
+					color: #6e7681;
 					font-size: 10px;
 					font-family: "SF Mono", "Fira Code", Consolas, monospace;
 					margin-left: 6px;
@@ -241,7 +241,7 @@
 				}
 
 				.prompt {
-					color: #00DCC8;
+					color: #3fb950;
 				}
 
 				.cmd {
@@ -249,15 +249,15 @@
 				}
 
 				.flag {
-					color: #A97BFF;
+					color: #d2a8ff;
 				}
 
 				.arg {
-					color: #F1E05A;
+					color: #ffa657;
 				}
 
 				.output {
-					color: #484f58;
+					color: #6e7681;
 				}
 
 				.success {
@@ -269,7 +269,7 @@
 					display: inline-block;
 					width: 7px;
 					height: 14px;
-					background: #00DCC8;
+					background: #3fb950;
 					margin-left: 2px;
 					animation: blink 1s step-end infinite;
 					vertical-align: middle;
@@ -294,7 +294,7 @@
 				.progress-fill {
 					height: 100%;
 					width: 100%;
-					background: linear-gradient(90deg, #00DCC8, #00B4AB);
+					background: linear-gradient(90deg, #3fb950, #2ea043);
 					border-radius: 3px;
 					animation: fillUp 3s ease-in-out infinite;
 				}
@@ -310,7 +310,7 @@
 					position: absolute;
 					width: 2px;
 					height: 2px;
-					background: #00DCC8;
+					background: #0e8a7e;
 					border-radius: 50%;
 					z-index: 2;
 					animation: float 6s ease-in-out infinite;
@@ -324,9 +324,9 @@
 
 				@keyframes float {
 					0%, 100% { opacity: 0; transform: translateY(0) scale(1); }
-					25% { opacity: 0.6; }
-					50% { opacity: 1; transform: translateY(-15px) scale(1.5); }
-					75% { opacity: 0.4; }
+					25% { opacity: 0.5; }
+					50% { opacity: 0.8; transform: translateY(-15px) scale(1.5); }
+					75% { opacity: 0.3; }
 				}
 
 				/* Corner accents */
@@ -340,32 +340,32 @@
 				.corner-tl {
 					top: 6px;
 					left: 6px;
-					border-top: 1.5px solid rgba(0, 220, 200, 0.2);
-					border-left: 1.5px solid rgba(0, 220, 200, 0.2);
+					border-top: 1.5px solid rgba(0, 150, 140, 0.2);
+					border-left: 1.5px solid rgba(0, 150, 140, 0.2);
 					border-radius: 4px 0 0 0;
 				}
 
 				.corner-tr {
 					top: 6px;
 					right: 6px;
-					border-top: 1.5px solid rgba(0, 220, 200, 0.2);
-					border-right: 1.5px solid rgba(0, 220, 200, 0.2);
+					border-top: 1.5px solid rgba(0, 150, 140, 0.2);
+					border-right: 1.5px solid rgba(0, 150, 140, 0.2);
 					border-radius: 0 4px 0 0;
 				}
 
 				.corner-bl {
 					bottom: 6px;
 					left: 6px;
-					border-bottom: 1.5px solid rgba(0, 220, 200, 0.2);
-					border-left: 1.5px solid rgba(0, 220, 200, 0.2);
+					border-bottom: 1.5px solid rgba(0, 150, 140, 0.2);
+					border-left: 1.5px solid rgba(0, 150, 140, 0.2);
 					border-radius: 0 0 0 4px;
 				}
 
 				.corner-br {
 					bottom: 6px;
 					right: 6px;
-					border-bottom: 1.5px solid rgba(0, 220, 200, 0.2);
-					border-right: 1.5px solid rgba(0, 220, 200, 0.2);
+					border-bottom: 1.5px solid rgba(0, 150, 140, 0.2);
+					border-right: 1.5px solid rgba(0, 150, 140, 0.2);
 					border-radius: 0 0 4px 0;
 				}
 			</style>
