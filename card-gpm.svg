@@ -413,7 +413,7 @@
 								<span class="term-title">~/.terminal</span>
 							</div>
 							<div class="terminal-body">
-								<div class="line"><span class="prompt">&#x276F; </span><span class="cmd">gpm </span><span class="flag">install </span><span class="arg">user/repo</span></div>
+								<div class="line"><span class="prompt">&#x276F;&#160;</span><span class="cmd">gpm&#160;</span><span class="flag">install&#160;</span><span class="arg">user/repo</span></div>
 								<div class="line"><span class="output">Resolving dependencies...</span></div>
 								<div class="line"><span class="output">Building from source</span></div>
 								<div class="line">
