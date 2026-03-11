@@ -1,0 +1,177 @@
+<svg fill="none" viewBox="0 0 388 170" width="388" height="170" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				* { margin: 0; padding: 0; box-sizing: border-box; }
+
+				.card {
+					width: 378px;
+					height: 160px;
+					background: linear-gradient(145deg, #0d1117 0%, #111827 100%);
+					border-radius: 14px;
+					border: 1px solid #21262d;
+					padding: 22px 24px;
+					position: relative;
+					overflow: hidden;
+					font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+					margin: 5px;
+				}
+
+				.accent {
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					width: 4px;
+					background: linear-gradient(180deg, #A97BFF, #c9a5ff);
+					border-radius: 14px 0 0 14px;
+					animation: glow 2.5s ease-in-out infinite alternate;
+				}
+
+				@keyframes glow {
+					0% { box-shadow: 0 0 8px rgba(169, 123, 255, 0.2); }
+					100% { box-shadow: 0 0 20px rgba(169, 123, 255, 0.5); }
+				}
+
+				.bg-orb {
+					position: absolute;
+					top: -30px;
+					right: -30px;
+					width: 120px;
+					height: 120px;
+					background: radial-gradient(circle, rgba(169, 123, 255, 0.06) 0%, transparent 70%);
+					border-radius: 50%;
+				}
+
+				.icon-area {
+					position: absolute;
+					top: 20px;
+					right: 22px;
+				}
+
+				.gamepad-body {
+					width: 36px;
+					height: 22px;
+					background: rgba(169, 123, 255, 0.15);
+					border: 1.5px solid rgba(169, 123, 255, 0.4);
+					border-radius: 8px;
+					position: relative;
+					animation: iconFloat 3s ease-in-out infinite alternate;
+				}
+
+				@keyframes iconFloat {
+					0% { transform: translateY(0px); }
+					100% { transform: translateY(-3px); }
+				}
+
+				.btn {
+					width: 4px;
+					height: 4px;
+					background: #A97BFF;
+					border-radius: 50%;
+					position: absolute;
+				}
+
+				.btn-a { top: 5px; right: 5px; }
+				.btn-b { top: 11px; right: 9px; }
+
+				.dpad {
+					position: absolute;
+					top: 7px;
+					left: 7px;
+					width: 10px;
+					height: 10px;
+				}
+
+				.dpad-h, .dpad-v {
+					position: absolute;
+					background: rgba(169, 123, 255, 0.6);
+					border-radius: 1px;
+				}
+
+				.dpad-h {
+					width: 10px;
+					height: 3px;
+					top: 3.5px;
+					left: 0;
+				}
+
+				.dpad-v {
+					width: 3px;
+					height: 10px;
+					top: 0;
+					left: 3.5px;
+				}
+
+				.name {
+					color: #e6edf3;
+					font-size: 17px;
+					font-weight: 600;
+					margin-bottom: 8px;
+					letter-spacing: -0.3px;
+				}
+
+				.desc {
+					color: #7d8590;
+					font-size: 12.5px;
+					line-height: 1.45;
+					max-width: 295px;
+				}
+
+				.meta {
+					position: absolute;
+					bottom: 20px;
+					left: 24px;
+					display: flex;
+					align-items: center;
+					gap: 8px;
+				}
+
+				.lang-dot {
+					width: 10px;
+					height: 10px;
+					background: #A97BFF;
+					border-radius: 50%;
+				}
+
+				.lang-name {
+					color: #7d8590;
+					font-size: 11.5px;
+				}
+
+				.stars {
+					color: #7d8590;
+					font-size: 11.5px;
+					display: flex;
+					align-items: center;
+					gap: 3px;
+				}
+
+				.star-icon {
+					color: #7d8590;
+					font-size: 12px;
+				}
+			</style>
+			<div class="card">
+				<div class="accent"></div>
+				<div class="bg-orb"></div>
+				<div class="icon-area">
+					<div class="gamepad-body">
+						<div class="btn btn-a"></div>
+						<div class="btn btn-b"></div>
+						<div class="dpad">
+							<div class="dpad-h"></div>
+							<div class="dpad-v"></div>
+						</div>
+					</div>
+				</div>
+				<div class="name">terraria_gamepad</div>
+				<div class="desc">Use your phone as a wireless gamepad to play Terraria on your tablet</div>
+				<div class="meta">
+					<div class="lang-dot"></div>
+					<span class="lang-name">Kotlin</span>
+				</div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
