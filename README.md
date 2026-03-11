@@ -3,6 +3,11 @@
 	<a href="https://omegaui-io.web.app/" title="Explore My World">
 		<img src="header.svg" width="800" height="400">
 	</a>
+	<picture>
+		<source media="(prefers-color-scheme: light)" srcset="tech-stack-light.svg">
+		<source media="(prefers-color-scheme: dark)" srcset="tech-stack.svg">
+		<img src="tech-stack.svg" width="800" height="90">
+	</picture>
 	<br>
 	<a href="https://github.com/generic-package-manager/gpm">
 		<picture>

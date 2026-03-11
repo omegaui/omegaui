@@ -1,0 +1,146 @@
+<svg fill="none" viewBox="0 0 800 90" width="800" height="90" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				* { margin: 0; padding: 0; box-sizing: border-box; }
+
+				.carousel {
+					width: 800px;
+					height: 90px;
+					overflow: hidden;
+					position: relative;
+					font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+				}
+
+				.fade-l, .fade-r {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					width: 80px;
+					z-index: 10;
+					pointer-events: none;
+				}
+
+				.fade-l {
+					left: 0;
+					background: linear-gradient(90deg, #0d1117 0%, transparent 100%);
+				}
+
+				.fade-r {
+					right: 0;
+					background: linear-gradient(90deg, transparent 0%, #0d1117 100%);
+				}
+
+				.row {
+					display: flex;
+					gap: 10px;
+					white-space: nowrap;
+					width: max-content;
+					padding: 4px 0;
+				}
+
+				.row-1 {
+					animation: scrollLeft 25s linear infinite;
+					margin-bottom: 8px;
+				}
+
+				.row-2 {
+					animation: scrollRight 28s linear infinite;
+				}
+
+				@keyframes scrollLeft {
+					0% { transform: translateX(0); }
+					100% { transform: translateX(-50%); }
+				}
+
+				@keyframes scrollRight {
+					0% { transform: translateX(-50%); }
+					100% { transform: translateX(0); }
+				}
+
+				.pill {
+					display: inline-flex;
+					align-items: center;
+					gap: 7px;
+					background: rgba(255, 255, 255, 0.03);
+					border: 1px solid #21262d;
+					border-radius: 20px;
+					padding: 6px 14px;
+					flex-shrink: 0;
+					transition: border-color 0.3s;
+				}
+
+				.dot {
+					width: 7px;
+					height: 7px;
+					border-radius: 50%;
+					flex-shrink: 0;
+				}
+
+				.label {
+					color: #8b949e;
+					font-size: 11.5px;
+					font-weight: 500;
+					letter-spacing: 0.2px;
+				}
+
+				/* Tech colors */
+				.c-flutter { background: #027DFD; }
+				.c-react { background: #61DAFB; }
+				.c-compose { background: #4285F4; }
+				.c-docker { background: #2496ED; }
+				.c-redis { background: #DC382D; }
+				.c-gcp { background: #4285F4; }
+				.c-aws { background: #FF9900; }
+				.c-supabase { background: #3ECF8E; }
+				.c-digitalocean { background: #0080FF; }
+				.c-deno { background: #70FFAF; }
+				.c-bun { background: #FBF0DF; }
+				.c-ollama { background: #FFFFFF; }
+				.c-linux { background: #FCC624; }
+				.c-security { background: #EF4444; }
+				.c-selfhost { background: #A78BFA; }
+			</style>
+			<div class="carousel">
+				<div class="fade-l"></div>
+				<div class="fade-r"></div>
+				<div class="row row-1">
+					<div class="pill"><div class="dot c-flutter"></div><span class="label">Flutter</span></div>
+					<div class="pill"><div class="dot c-react"></div><span class="label">React</span></div>
+					<div class="pill"><div class="dot c-compose"></div><span class="label">Jetpack Compose</span></div>
+					<div class="pill"><div class="dot c-docker"></div><span class="label">Docker</span></div>
+					<div class="pill"><div class="dot c-redis"></div><span class="label">Redis Cluster</span></div>
+					<div class="pill"><div class="dot c-gcp"></div><span class="label">GCP</span></div>
+					<div class="pill"><div class="dot c-aws"></div><span class="label">AWS</span></div>
+					<div class="pill"><div class="dot c-selfhost"></div><span class="label">Self Hosting</span></div>
+					<!-- duplicate for seamless loop -->
+					<div class="pill"><div class="dot c-flutter"></div><span class="label">Flutter</span></div>
+					<div class="pill"><div class="dot c-react"></div><span class="label">React</span></div>
+					<div class="pill"><div class="dot c-compose"></div><span class="label">Jetpack Compose</span></div>
+					<div class="pill"><div class="dot c-docker"></div><span class="label">Docker</span></div>
+					<div class="pill"><div class="dot c-redis"></div><span class="label">Redis Cluster</span></div>
+					<div class="pill"><div class="dot c-gcp"></div><span class="label">GCP</span></div>
+					<div class="pill"><div class="dot c-aws"></div><span class="label">AWS</span></div>
+					<div class="pill"><div class="dot c-selfhost"></div><span class="label">Self Hosting</span></div>
+				</div>
+				<div class="row row-2">
+					<div class="pill"><div class="dot c-supabase"></div><span class="label">Supabase</span></div>
+					<div class="pill"><div class="dot c-digitalocean"></div><span class="label">DigitalOcean</span></div>
+					<div class="pill"><div class="dot c-deno"></div><span class="label">Deno</span></div>
+					<div class="pill"><div class="dot c-bun"></div><span class="label">Bun</span></div>
+					<div class="pill"><div class="dot c-ollama"></div><span class="label">Ollama</span></div>
+					<div class="pill"><div class="dot c-linux"></div><span class="label">Linux</span></div>
+					<div class="pill"><div class="dot c-security"></div><span class="label">System Security</span></div>
+					<!-- duplicate for seamless loop -->
+					<div class="pill"><div class="dot c-supabase"></div><span class="label">Supabase</span></div>
+					<div class="pill"><div class="dot c-digitalocean"></div><span class="label">DigitalOcean</span></div>
+					<div class="pill"><div class="dot c-deno"></div><span class="label">Deno</span></div>
+					<div class="pill"><div class="dot c-bun"></div><span class="label">Bun</span></div>
+					<div class="pill"><div class="dot c-ollama"></div><span class="label">Ollama</span></div>
+					<div class="pill"><div class="dot c-linux"></div><span class="label">Linux</span></div>
+					<div class="pill"><div class="dot c-security"></div><span class="label">System Security</span></div>
+				</div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
