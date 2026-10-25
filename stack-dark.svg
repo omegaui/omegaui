@@ -1,0 +1,23 @@
+<svg fill="none" viewBox="0 0 800 130" width="800" height="130" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.wrap { width: 800px; padding: 6px 5px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+.row { display: flex; align-items: center; gap: 6px; height: 38px; }
+.lbl { width: 78px; flex: none; font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; font-size: 11px; color: #5d6672;
+  letter-spacing: 1.2px; text-transform: uppercase; }
+.row:first-child .lbl { color: #2ee6d2; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 999px;
+  background: rgba(255,255,255,0.03); border: 1px solid #262f3b; font-size: 12px; font-weight: 500;
+  color: #e6edf3; white-space: nowrap; }
+.row:not(:first-child) .pill { color: #9198a1; }
+.dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+			</style>
+<div class="wrap"><div class="row"><span class="lbl">backend</span><span class="pill"><span class="dot" style="background:#5FA04E"></span>Node.js</span><span class="pill"><span class="dot" style="background:#fbf0df"></span>Bun</span><span class="pill"><span class="dot" style="background:#3178C6"></span>TypeScript</span><span class="pill"><span class="dot" style="background:#00ADD8"></span>Go</span><span class="pill"><span class="dot" style="background:#3ECF8E"></span>Postgres · Supabase</span><span class="pill"><span class="dot" style="background:#DC382D"></span>Redis Cluster</span><span class="pill"><span class="dot" style="background:#70FFAF"></span>Deno</span></div><div class="row"><span class="lbl">infra</span><span class="pill"><span class="dot" style="background:#2496ED"></span>Docker</span><span class="pill"><span class="dot" style="background:#4285F4"></span>GCP</span><span class="pill"><span class="dot" style="background:#FF9900"></span>AWS</span><span class="pill"><span class="dot" style="background:#0080FF"></span>DigitalOcean</span><span class="pill"><span class="dot" style="background:#A78BFA"></span>Self-hosting</span><span class="pill"><span class="dot" style="background:#FCC624"></span>Linux</span><span class="pill"><span class="dot" style="background:#e6edf3"></span>Ollama</span></div><div class="row"><span class="lbl">clients</span><span class="pill"><span class="dot" style="background:#027DFD"></span>Flutter</span><span class="pill"><span class="dot" style="background:#00B4AB"></span>Dart</span><span class="pill"><span class="dot" style="background:#A97BFF"></span>Kotlin</span><span class="pill"><span class="dot" style="background:#4285F4"></span>Jetpack Compose</span><span class="pill"><span class="dot" style="background:#61DAFB"></span>React</span><span class="pill"><span class="dot" style="background:#B07219"></span>Java</span></div></div>
+		</div>
+	</foreignObject>
+</svg>

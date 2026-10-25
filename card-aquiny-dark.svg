@@ -1,0 +1,39 @@
+<svg fill="none" viewBox="0 0 264 168" width="264" height="168" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.card {
+  position: relative; overflow: hidden;
+  background: linear-gradient(150deg, #0f1522 0%, #121b2c 100%);
+  border: 1px solid #232c3a; border-radius: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; color: #e6edf3;
+}
+
+.wave { display: flex; align-items: center; gap: 3px; height: 18px; }
+.wave i { display: block; width: 3px; border-radius: 2px; background: #5B9BD5; animation: bar 1.4s ease-in-out infinite; }
+.wave i:nth-child(1) { height: 6px; } .wave i:nth-child(2) { height: 14px; animation-delay: .2s; }
+.wave i:nth-child(3) { height: 18px; animation-delay: .4s; } .wave i:nth-child(4) { height: 10px; animation-delay: .6s; }
+.wave i:nth-child(5) { height: 5px; animation-delay: .8s; }
+@keyframes bar { 50% { transform: scaleY(0.4); } }
+
+.card { width: 256px; height: 160px; margin: 4px; padding: 18px 18px 16px 20px; }
+.accent { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: #5B9BD5; }
+.icon { position: absolute; top: 18px; right: 16px; }
+.name { font-size: 15px; font-weight: 650; padding-right: 48px; letter-spacing: -0.2px; }
+.desc { margin-top: 8px; font-size: 13px; line-height: 1.5; color: #9198a1; }
+.meta { position: absolute; left: 20px; bottom: 15px; display: flex; align-items: center; gap: 6px;
+  font-size: 11.5px; color: #9198a1; }
+.ldot { width: 9px; height: 9px; border-radius: 50%; background: #5B9BD5; }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+			</style>
+
+<div class="card"><div class="accent"></div><div class="icon"><div class="wave"><i></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="name">aquiny</div><div class="desc">Voice desktop reminders, scheduled in plain language.</div>
+  <div class="meta"><span class="ldot"></span>Python</div>
+</div>
+		</div>
+	</foreignObject>
+</svg>

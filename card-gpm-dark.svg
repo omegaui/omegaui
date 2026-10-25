@@ -1,0 +1,43 @@
+<svg fill="none" viewBox="0 0 396 276" width="396" height="276" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.card {
+  position: relative; overflow: hidden;
+  background: linear-gradient(150deg, #0f1522 0%, #121b2c 100%);
+  border: 1px solid #232c3a; border-radius: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; color: #e6edf3;
+}
+
+.card { width: 388px; height: 268px; margin: 4px; padding: 22px 22px 20px; display: flex; flex-direction: column; }
+.glow { position: absolute; right: -60px; top: -60px; width: 180px; height: 180px; border-radius: 50%;
+  background: radial-gradient(circle, #2ee6d222 0%, transparent 70%); }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.badge { font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; font-size: 10.5px; letter-spacing: 1.3px; text-transform: uppercase;
+  color: #2ee6d2; border: 1px solid #2ee6d255; background: #2ee6d212; padding: 3px 10px; border-radius: 999px; }
+.lang { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #9198a1; }
+.ldot { width: 9px; height: 9px; border-radius: 50%; background: #00B4AB; }
+.title { margin-top: 14px; font-size: 24px; font-weight: 750; letter-spacing: -0.5px; }
+.desc { margin-top: 6px; margin-bottom: 12px; font-size: 13.5px; line-height: 1.5; color: #9198a1; }
+.code { flex: none; margin-top: auto; background: rgba(255,255,255,0.035); border: 1px solid #1f2733; border-radius: 8px;
+  padding: 8px 12px; font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; font-size: 11.5px; line-height: 1.65; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.p { color: #2ee6d2; } .c { color: #e6edf3; } .f { color: #5d6672; }
+.ok { color: #3fb950; } .no { color: #f85149; }
+.cur { display: inline-block; width: 7px; height: 13px; background: #2ee6d2; margin-left: 3px;
+  vertical-align: -2px; animation: blink 1.1s step-end infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+			</style>
+
+<div class="card"><div class="glow"></div>
+  <div class="top"><span class="badge">package manager</span><span class="lang"><span class="ldot"></span>Dart</span></div>
+  <div class="title">gpm</div>
+  <div class="desc">Install apps straight from GitHub repos, with updates built in. Package management meets cross-platform builds.</div>
+  <div class="code"><div><span class="p">❯</span> <span class="c">gpm install</span> <span class="f">user/repo</span></div><div><span class="f">resolving release · building from source</span></div><div><span class="ok">✔ installed</span><span class="f"> · tracked for updates</span><span class="cur"></span></div></div>
+</div>
+		</div>
+	</foreignObject>
+</svg>
