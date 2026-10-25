@@ -17,7 +17,7 @@
   <img src="stack-dark.svg" width="800" alt="Stack. Backend: Node.js, Bun, TypeScript, Go, Postgres and Supabase, Redis Cluster, Deno. Infra: Docker, GCP, AWS, DigitalOcean, self-hosting, Linux, Ollama. Clients: Flutter, Dart, Kotlin, Jetpack Compose, React, Java.">
 </picture>
 
-### now building
+### built amazing open source tools before the AI era
 
 <a href="https://github.com/generic-package-manager/gpm"><picture><source media="(prefers-color-scheme: light)" srcset="card-gpm-light.svg"><source media="(prefers-color-scheme: dark)" srcset="card-gpm-dark.svg"><img src="card-gpm-dark.svg" width="396" alt="gpm: install apps straight from GitHub repos with built-in updates (Dart)"></picture></a><a href="https://github.com/omegaui/reqseal"><picture><source media="(prefers-color-scheme: light)" srcset="card-reqseal-light.svg"><source media="(prefers-color-scheme: dark)" srcset="card-reqseal-dark.svg"><img src="card-reqseal-dark.svg" width="396" alt="reqseal: request freshness and replay protection for HTTP APIs (JavaScript)"></picture></a>
 
